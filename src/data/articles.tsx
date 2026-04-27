@@ -463,7 +463,7 @@ export const articlesData: Article[] = [
   {
     id: 'report',
     title: 'Город разводных… людей',
-    
+    source: 'Neva Today',
     type: 'Репортаж',
     content: (
       <div className="space-y-16 text-brand-charcoal">
@@ -848,9 +848,9 @@ export const articlesData: Article[] = [
             <div className="lg:sticky lg:top-24">
               <EditorialCarousel 
                 images={[
-                  { src: '/assets/img1.png', label: 'Page 01' },
-                  { src: '/assets/img2.png', label: 'Page 02' },
-                  { src: '/assets/img3.png', label: 'Page 03' }
+                  { src: 'assets/img1.png', label: 'Page 01' },
+                  { src: 'assets/img2.png', label: 'Page 02' },
+                  { src: 'assets/img3.png', label: 'Page 03' }
                 ]} 
               />
             </div>
@@ -874,10 +874,10 @@ export const articlesData: Article[] = [
             <div className="lg:sticky lg:top-24 order-2 lg:order-1">
               <EditorialCarousel 
                 images={[
-                  { src: '/assets/img4.png', label: 'Scan 01' },
-                  { src: '/assets/img5.png', label: 'Scan 02' },
-                  { src: '/assets/img6.png', label: 'Scan 03' },
-                  { src: '/assets/img7.png', label: 'Scan 04' }
+                  { src: 'assets/img4.png', label: 'Scan 01' },
+                  { src: 'assets/img5.png', label: 'Scan 02' },
+                  { src: 'assets/img6.png', label: 'Scan 03' },
+                  { src: 'assets/img7.png', label: 'Scan 04' }
                 ]} 
               />
             </div>
@@ -900,9 +900,9 @@ export const articlesData: Article[] = [
             <div className="lg:sticky lg:top-24">
               <EditorialCarousel 
                 images={[
-                  { src: '/assets/img1.png', label: 'Revision 01' },
-                  { src: '/assets/img2.png', label: 'Revision 02' },
-                  { src: '/assets/img3.png', label: 'Revision 03' }
+                  { src: 'assets/img1.png', label: 'Revision 01' },
+                  { src: 'assets/img2.png', label: 'Revision 02' },
+                  { src: 'assets/img3.png', label: 'Revision 03' }
                 ]} 
               />
             </div>
