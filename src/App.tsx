@@ -215,7 +215,7 @@ const ProjectTwoDetails = () => {
               {Array.from({ length: 15 }).map((_, idx) => (
                 <div key={idx} className="aspect-[1024/1280] bg-white border border-brand-charcoal/10 rounded-[1rem] overflow-hidden shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 relative group">
                    <img 
-                     src={`/assets/m${idx + 1}.JPG`} 
+                     src={`assets/m${idx + 1}.JPG`} 
                      alt={`Template ${idx + 1}`} 
                      className="w-full h-full object-cover"
                      referrerPolicy="no-referrer"
@@ -379,7 +379,7 @@ const ProjectThreeDetails = () => {
               {[1, 2, 3, 4].map((num) => (
                 <div key={num} className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm transition-all hover:shadow-md relative group">
                    <img 
-                     src={`/assets/s${num}.png`} 
+                     src={`assets/s${num}.png`} 
                      alt={`Simple Wine Event ${num}`} 
                      className="w-full h-full object-cover"
                      referrerPolicy="no-referrer"
@@ -817,7 +817,7 @@ const ProjectOneDetails = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
                    <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm">
                       <img 
-                        src='/assets/kp1.png' 
+                        src='assets/kp1.png' 
                         alt="Статистика ДО" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -825,7 +825,7 @@ const ProjectOneDetails = () => {
                    </div>
                    <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm">
                       <img 
-                        src='/assets/kp2.png' 
+                        src='assets/kp2.png' 
                         alt="Статистика ПОСЛЕ" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
