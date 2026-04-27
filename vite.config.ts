@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   return {
     // Поскольку репозиторий mamaevadaria.github.io является основным,
     // используем корень '/'
-    base: '/', 
+    base: '/portfolio/',
     
     plugins: [react(), tailwindcss()],
     
