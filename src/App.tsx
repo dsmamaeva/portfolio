@@ -153,7 +153,7 @@ const ProjectTwoDetails = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm transition-all hover:shadow-md relative group">
                  <img 
-                   src="/assets/lvt1.png" 
+                   src="assets/lvt1.png" 
                    alt="Брендбук" 
                    className="w-full h-full object-cover"
                    referrerPolicy="no-referrer"
@@ -164,7 +164,7 @@ const ProjectTwoDetails = () => {
               </div>
               <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm transition-all hover:shadow-md relative group">
                  <img 
-                   src="/assets/lvt2.png" 
+                   src="assets/lvt2.png" 
                    alt="Предварительный проект в Figma" 
                    className="w-full h-full object-cover"
                    referrerPolicy="no-referrer"
@@ -326,7 +326,7 @@ const ProjectThreeDetails = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm transition-all hover:shadow-md relative group">
                  <img 
-                   src="/assets/t1.jpeg" 
+                   src="assets/t1.jpeg" 
                    alt="Event Photo 01" 
                    className="w-full h-full object-cover"
                    referrerPolicy="no-referrer"
@@ -337,7 +337,7 @@ const ProjectThreeDetails = () => {
               </div>
               <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm transition-all hover:shadow-md relative group">
                  <img 
-                   src="/assets/t2.jpeg" 
+                   src="assets/t2.jpeg" 
                    alt="Event Photo 02" 
                    className="w-full h-full object-cover"
                    referrerPolicy="no-referrer"
@@ -899,7 +899,7 @@ const ProjectOneDetails = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
                    <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm">
                       <img 
-                        src="/assets/meet01.jpg" 
+                        src="assets/meet01.jpg" 
                         alt="Статистика DO" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -907,7 +907,7 @@ const ProjectOneDetails = () => {
                    </div>
                    <div className="aspect-video bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm">
                       <img 
-                        src="/assets/meet02.jpg" 
+                        src="assets/meet02.jpg" 
                         alt="Статистика POSLE" 
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -937,9 +937,9 @@ const ProjectOneDetails = () => {
                 {/* Additional Stats Images Row */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
                   {[
-                    "/assets/стат1.png",
-                    "/assets/стат2.png",
-                    "/assets/стат3.png"
+                    "assets/стат1.png",
+                    "assets/стат2.png",
+                    "assets/стат3.png"
                   ].map((src, idx) => (
                     <div key={idx} className="aspect-[9/16] bg-white rounded-[2.5rem] overflow-hidden border border-brand-charcoal/10 shadow-sm transition-all hover:shadow-md">
                       <img 
