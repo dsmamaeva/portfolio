@@ -1154,6 +1154,25 @@ const ProjectOneDetails = () => {
                   </div>
                 </div>
 
+                {/* Образование */}
+                <div className="pt-10 border-t border-brand-charcoal/10">
+                  <h4 className="text-[11px] font-black uppercase tracking-[0.5em] text-brand-charcoal/30 mb-8">Образование</h4>
+                  <div className="space-y-8">
+                    <div className="relative pl-8 border-l-2 border-brand-vibrant-pink/20">
+                      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brand-vibrant-pink" />
+                      <h5 className="text-[10px] font-black uppercase tracking-widest text-brand-vibrant-pink mb-2">Магистратура</h5>
+                      <p className="text-xl font-black text-brand-charcoal leading-tight">НИУ ВШЭ • 2026</p>
+                      <p className="text-sm text-brand-grey/60 italic font-medium mt-1">«Медиапроизводство и медиааналитика»</p>
+                    </div>
+                    <div className="relative pl-8 border-l-2 border-brand-blue/20">
+                      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brand-blue" />
+                      <h5 className="text-[10px] font-black uppercase tracking-widest text-brand-blue mb-2">Бакалавриат</h5>
+                      <p className="text-xl font-black text-brand-charcoal leading-tight">ЛГУ им. Пушкина • 2024</p>
+                      <p className="text-sm text-brand-grey/60 italic font-medium mt-1">Бакалавриат «Журналистика»</p>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Detailed Life Outside Work */}
             <details className="group glass-card !bg-brand-beige/20 p-8 rounded-3xl border-none cursor-pointer overflow-hidden transition-all duration-500 open:pb-10">
               <summary className="flex items-center justify-between list-none">
