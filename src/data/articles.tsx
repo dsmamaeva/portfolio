@@ -463,7 +463,7 @@ export const articlesData: Article[] = [
   {
     id: 'report',
     title: 'Город разводных… людей',
-    source: 'Neva Today',
+    
     type: 'Репортаж',
     content: (
       <div className="space-y-16 text-brand-charcoal">
