@@ -60,7 +60,7 @@ export default function Hero() {
                   }}
                 >
                   <img 
-                    src="/assets/hero_main.png" 
+                    src="assets/hero_main.png" 
                     alt="Daria Mamaeva" 
                     className="w-full h-full object-cover transition-transform duration-3000 hover:scale-105 contrast-[0.95]"
                   />
